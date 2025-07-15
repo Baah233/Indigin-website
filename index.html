@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Indigin Group</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="/IndiginGroup/logo.svg" type="image/svg+xml">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- AOS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+  <!-- Font Awesome (Social Icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="/style.css">
+
+  <!-- Smooth Scrolling -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .dimmed-overlay::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+    .dimmed-overlay {
+      position: relative;
+    }
+    .fade-caption {
+      z-index: 2;
+    }
+    .emoji-icon {
+      font-size: 1.5rem;
+    }
+    .hover-scale:hover {
+      transform: scale(1.02);
+      transition: transform 0.3s ease-in-out;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <img src="/IndiginGroup/logo.svg" alt="Indigin Group Logo" class="navbar-brand" style="width: 40px; height: auto;">
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navContent">
+      <ul class="navbar-nav ms-auto" style="font-size: 1.1rem;">
+        <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#founder">Founder</a></li>
+        <li class="nav-item"><a class="nav-link" href="#values">Values</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- HERO SECTION FIXED FOR FULL COVERAGE AND PROFESSIONAL LAYOUT -->
+<section id="hero" class="hero-section position-relative text-white">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active" data-bs-interval="5000">
+        <div class="carousel-img-wrapper position-relative">
+          <img src="/IndiginGroup/banner.png" class="d-block w-100 h-100 object-fit-cover" alt="Slide 1">
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item" data-bs-interval="5000">
+        <div class="carousel-img-wrapper position-relative">
+          <img src="/IndiginGroup/banner2.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Slide 2">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Caption and Button -->
+  <div class="hero-caption position-absolute top-50 start-50 translate-middle text-center text-white z-2">
+    <h1 class="display-4 fw-bold">Empowering African Brands</h1>
+    <h4 class="fw-normal mb-4">We merge identity and strategy to help brands grow.</h4>
+
+    <!-- Animated Arrow -->
+    <div class="arrow-bounce mb-3">
+      <div class="modern-arrow"></div>
+    </div>
+
+    <!-- Button to Scroll to Subsidiaries -->
+    <a href="#subsidiaries" class="btn btn-outline-success btn-lg bg-success text-white text-uppercase fw-bold fs-6">
+      VIEW SUBSIDIARIES
+    </a>
+  </div>
+</section>
+
+
+<!-- The rest of the page can follow -->
+<section id="about" class="py-5 bg-light mt-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Text Column -->
+      <div class="col-md-6 mb-4 mb-md-0 text-center text-md-start" data-aos="fade-right" data-aos-duration="1200" style="background-color: rgb(248, 241, 231);">
+        <h2 class="fw-bold text-success">About Us</h2>
+        <p>Indigin Group Ltd is the umbrella body of a number of companies with business offerings across diverse sectors, thus real estate, land development and estate, construction and civil engineering, real estate marketing, commodities etc.</p>
+        <p>Indigin Group was founded by the current Executive Director Francis Nesta Opey. The group is driven by a commitment to creating sustainable and innovative solutions in every sector it operates in</p>
+      </div>
+
+      <!-- Image Column -->
+      <div class="col-md-6 text-center" data-aos="fade-left" data-aos-duration="1200">
+        <img src="/IndiginGroup/info.jpg" alt="About Indigin Group" class="img-fluid rounded shadow hover-scale" style="max-width: 400px;">
+      </div>
+
+    </div>
+
+    <div class="row align-items-center mt-5">
+         <!-- Image Column -->
+      <div class="col-md-6 text-center" data-aos="fade-left" data-aos-duration="1200">
+        <img src="/IndiginGroup/building.png" alt="About Indigin Group" class="img-fluid rounded shadow hover-scale" style="max-width: 500px;">
+      </div>
+         <!-- Text Column -->
+    <div class="col-md-6 mb-4 mb-md-0 text-center text-md-start p-4 p-md-5 rounded-4 shadow-sm mt-5"
+     data-aos="fade-right"
+     data-aos-duration="1200"
+     style="background-color: rgb(248, 241, 231);">
+
+        <h4 class="fw-bold text-success mb-2">🔭 Our Vision</h4>
+        <p class="mb-4">
+           To ensure continuous success of all subsidiaries in spite of the economic climate in all countries we are present in.
+        </p>
+
+        <h4 class="fw-bold text-success mb-2">🎯 Our Mission</h4>
+        <p>
+            Indigin group envisions investment in diverse industries through subsidiary businesses and harmonising under the umbrella of Indigin, ensuring optimum level corporate governance and to be as an African business group that would transcend generations
+        </p>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section id="subsidiaries" class="py-5 text-white">
+  <div class="container-fluid px-0">
+
+    <!-- Section Header -->
+    <div class="px-4 pb-3 text-start">
+      <h2 class="fw-bold">
+        <span class="text-success">OUR</span> <span class="text-dark">SUBSIDIARY</span> <span class="text-success">COMPANIES</span>
+      </h2>
+    </div>
+
+    <!-- Carousel -->
+    <div id="subsidiaryCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="hover">
+      <div class="carousel-inner">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="dimmed-overlay zoom-animation">
+            <img src="/IndiginGroup/estate.webp" class="d-block w-100 vh-100 object-fit-cover" alt="Estate Masters">
+          </div>
+          <div class="position-absolute top-50 start-50 translate-middle text-center text-white px-3 fade-caption">
+            <img src="/IndiginGroup/estate_logo.png" alt="Estate Masters Logo" style="height: 50px;" class="mb-3">
+            <p class="text-white-50 mx-auto" style="max-width: 600px;">
+              Estate Masters is a reputable real estate company with a nine-year track record of providing genuine lands. With a team of approximately 30 dedicated professionals, Estate Masters has established itself as a trusted player in the real estate market.
+            </p>
+            <a href="https://estate-master-project.onrender.com" target="_blank" class="btn btn-success fw-bold mt-2">
+              Explore Company &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="dimmed-overlay zoom-animation">
+            <img src="/IndiginGroup/hanex.webp" class="d-block w-100 vh-100 object-fit-cover" alt="Hanex Weks">
+          </div>
+          <div class="position-absolute top-50 start-50 translate-middle text-center text-white px-3 fade-caption">
+            <img src="/IndiginGroup/hanex_logo.png" alt="Hanex Weks Logo" style="height: 50px;" class="mb-3">
+            <p class="text-white-50 mx-auto" style="max-width: 600px;">
+              Hanex Weks is a dynamic construction company offering a comprehensive range of services, including home constructions, pergola designs, swimming pools, woodworks, renovations, and more — always with a focus on quality.
+            </p>
+            <a href="https://hanexweks.com" target="_blank" class="btn btn-success fw-bold mt-2">
+              Explore Company &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="dimmed-overlay zoom-animation">
+            <img src="/IndiginGroup/dwellys.jpg" class="d-block w-100 vh-100 object-fit-cover" alt="Dwellys">
+          </div>
+          <div class="position-absolute top-50 start-50 translate-middle text-center text-white px-3 fade-caption">
+            <img src="/IndiginGroup/dwellys_logo.png" alt="Dwellys Logo" style="height: 50px;" class="mb-3">
+            <p class="text-white-50 mx-auto" style="max-width: 600px;">
+              Dwellys is a cutting-edge online listing platform revolutionizing property advertising. Whether for sale or rent, it connects property owners with buyers or tenants effortlessly.
+            </p>
+            <a href="https://dwellys.com" target="_blank" class="btn btn-success fw-bold mt-2">
+              Explore Company &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+          <div class="dimmed-overlay zoom-animation">
+            <img src="/IndiginGroup/nestas.jpg" class="d-block w-100 vh-100 object-fit-cover" alt="Nestas">
+          </div>
+          <div class="position-absolute top-50 start-50 translate-middle text-center text-white px-3 fade-caption">
+            <img src="/IndiginGroup/nestas_logo.svg" alt="Nestas Logo" style="height: 50px;" class="mb-3">
+            <p class="text-white-50 mx-auto" style="max-width: 600px;">
+              Nestas specializes in the construction and sale of eco-friendly houses, offering sustainable and innovative living spaces for modern families and communities.
+            </p>
+            <a href="https://estate-master-project.onrender.com" target="_blank" class="btn btn-success fw-bold mt-2">
+              Explore Company &rarr;
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="founder" class="py-5 bg-light text-dark">
+  <div class="container">
+
+    <!-- Right-Aligned Section Header -->
+   <div class="row mb-5">
+    <div class="col-12 text-end">
+    <h2 class="fw-bold text-success">The Founder’s Vision</h2>
+    </div>
+    </div>
+
+
+    <!-- Two Columns -->
+    <div class="row align-items-center">
+
+      <!-- Founder Image Column -->
+        <div class="col-md-6 mb-4 mb-md-0 d-flex align-items-stretch" data-aos="fade-right" data-aos-duration="1000">
+        <img src="/IndiginGroup/md.jpg" alt="Founder - Francis Nesta Opey" class="img-fluid rounded-4 shadow-sm w-100 h-100 object-fit-cover">
+        </div>
+
+
+
+      <!-- Founder Text -->
+      <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" style="background-color: rgb(248, 241, 231);">
+        <p class="mb-3">
+          Mr. Francis Nesta Opey, the visionary leader behind Indigin Group, envisions a future where the real estate industry combines innovation with sustainability. His leadership has been instrumental in steering the group and its subsidiaries towards achieving this vision.
+        </p>
+        <p>
+          Indigin Group thrives on resilience, embodying a spirit that has not only weathered industry challenges but has also restored hope, trust, and loyalty. In an industry where such values are paramount, Indigin Group's commitment to acceptance, honesty, resilience, passion, ambition, focus and optimism defines our brand.
+        </p>
+        <p>
+          The Group name for Estate Masters, Hanex weks, Dwellys and Nestas limited. The main inspiration for the origin of the name ‘INDIGIN’ was deduced from the word ‘INDIGENE’- native/indigenous...
+        </p>
+        <p class="fw-bold mt-4">Francis Nesta Opey, <span class="text-success">Founder & CEO</span></p>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<section class="timeline-section">
+  <div class="container mb-5">
+    <h2 class="fw-bold text-center mb-3"><span class="text-success">OUR</span> STORY</h2>
+    <p class="text-center mx-auto" style="max-width: 800px; font-size: 1.1rem;">
+      Indigin Group has attained a lot of successes since inception. The Group boasts one of the best estate companies in Ghana-Estate Masters Ltd selling lands to over 5,000 people in Ghana and abroad. Here are some great achievements attained by the Group worth noting:
+    </p>
+  </div>
+
+  <h2 class="timeline-year">2019</h2>
+  <div class="timeline">
+    <!-- Timeline Item LEFT -->
+    <div class="timeline-item left" data-aos="fade-up">
+      <div class="content">
+        <h3 class="date">APRIL 2019</h3>
+        <h4 class="title">Inauguration of Multi-purpose head office edifice</h4>
+        <p>
+          In April 2019, the Group purchased and inaugurated a multipurpose edifice for one of its subsidiaries - Kings City Real Estate Limited (now Estate Masters Ltd) to help carry out operational functions after operating in a rented office for over 3 years.
+        </p>
+      </div>
+    </div>
+    <!-- Timeline Item RIGHT -->
+    <div class="timeline-item right" data-aos="fade-up">
+      <div class="content">
+        <h3 class="date">2019</h3>
+        <h4 class="title">Re-branding of Hanex weks</h4>
+        <p>
+          Indigin Group started experiencing immense growth after the Construction wing of the Group called JCW Ltd was rebranded to Hanex Weks Ltd.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="timeline-section">
+  <h2 class="timeline-year">2021</h2>
+  <div class="timeline">
+    <div class="timeline-item right" data-aos="fade-up">
+      <div class="content">
+        <h3 class="date">2021</h3>
+        <h4 class="title">Inauguration of Kasoa branch</h4>
+        <p>
+          2021 saw a massive achievement by the Group when the Kasoa branch of Estate Masters was inaugurated.
+        </p>
+      </div>
+    </div>
+    <div class="timeline-item left" data-aos="fade-up">
+      <div class="content">
+        <h3 class="date">2021</h3>
+        <h4 class="title">Dwellys re-branded</h4>
+        <p>
+          The Group rebranded Dwellys into an online property selling and renting platform, formerly a property brokerage firm.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="timeline-section">
+  <h2 class="timeline-year">2023</h2>
+  <div class="timeline">
+    <div class="timeline-item left" data-aos="fade-up">
+      <div class="content">
+        <h3 class="date">2023</h3>
+        <h4 class="title">Commence Building of premium estate Houses</h4>
+        <p>
+          In 2023, Nestas, one of Indigin Group's subsidiaries, began building luxurious affordable estate houses in Tema community 26 enclave.
+        </p>
+      </div>
+    </div>
+    <div class="timeline-item right" data-aos="fade-up">
+      <div class="content">
+        <h3 class="date">2023</h3>
+        <h4 class="title">Awards/Accolades</h4>
+        <p>
+          Group CEO Mr. Francis Nesta Opey received an award in Kenya for ‘Most Outstanding African in Industrial Real Estate’.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="values" class="core-values-section py-5">
+  <div class="container">
+    <!-- Section Intro -->
+    <div class="mb-5">
+      <h6 class="text-uppercase fw-bold text-muted">Leadership & <span class="text-success">Core Values</span></h6>
+      <p class="text-muted fs-6" style="max-width: 800px;">
+        Under the visionary leadership of Mr. Francis Nesta Opey and the strategic guidance of the executive committee, Indigin Group shapes the real estate landscape with a commitment to strong core values and principles.
+      </p>
+    </div>
+
+    <hr class="my-4">
+
+    <!-- Values Grid -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
+      <!-- Value Items -->
+      <div class="col" data-aos="fade-up" data-aos-delay="100">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">🤝</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">ACCEPTANCE</h4>
+            <p class="text-muted small mb-0">Embracing diversity and inclusivity</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="200">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">✔️</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">HONESTY</h4>
+            <p class="text-muted small mb-0">Upholding transparency and integrity</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="300">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">🖐️</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">RESILIENCE</h4>
+            <p class="text-muted small mb-0">Navigating challenges with strength and adaptability</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="400">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">🔥</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">PASSION</h4>
+            <p class="text-muted small mb-0">Fueled by enthusiasm for excellence</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="500">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">🎯</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">AMBITION</h4>
+            <p class="text-muted small mb-0">Striving for continuous growth and innovation</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="600">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">🔍</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">FOCUS</h4>
+            <p class="text-muted small mb-0">Concentrating on delivering exceptional results</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="700">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">😊</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">OPTIMISM</h4>
+            <p class="text-muted small mb-0">Approaching challenges with a positive mindset</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="800">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">🔁</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">CHANGE</h4>
+            <p class="text-muted small mb-0">Embracing evolution and adaptation</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="900">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">⭐</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">MOTIVATION</h4>
+            <p class="text-muted small mb-0">Igniting drive and determination</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="1000">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">💚</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">CARE</h4>
+            <p class="text-muted small mb-0">Nurturing relationships and communities</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="1100">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">🤝</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">SUPPORT</h4>
+            <p class="text-muted small mb-0">Standing together and uplifting one another</p>
+          </div>
+        </div>
+      </div>
+      <div class="col" data-aos="fade-up" data-aos-delay="1200">
+        <div class="d-flex align-items-start">
+          <div class="emoji-icon me-3">👥</div>
+          <div>
+            <h4 class="fw-bold mb-1 text-dark">UNITY</h4>
+            <p class="text-muted small mb-0">Promoting solidarity within the organization and community</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact">
+<!-- Footer -->
+<footer class="text-white py-5" style="background-color: #316d44;">
+  <div class="container">
+    <div class="row text-center text-md-start">
+
+      <!-- Logo & Copyright -->
+      <div class="col-md-4 mb-4 mb-md-0">
+        <img src="/IndiginGroup/logo.svg" alt="Logo" class="mb-3" style="height: 40px; color: aliceblue;">
+        <p class="mb-0">&copy; 2025 Indigin Group. All rights reserved.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-4 mb-4 mb-md-0">
+        <h5 class="text-light fw-bold">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#about" class="text-white text-decoration-none">About Us</a></li>
+          <li><a href="#subsidiaries" class="text-white text-decoration-none">Subsidiaries</a></li>
+          <li><a href="#values" class="text-white text-decoration-none">Core Values</a></li>
+          <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Connect With Us -->
+      <div class="col-md-4">
+        <h5 class="text-light fw-bold">Connect With Us</h5>
+        <p>Community 25, Estate</p>
+        <p>Masters Building, Tema</p>
+        <p>E - info@indigin.com.gh</p>
+        <p>T - +233 24 3370 356</p>
+        <a href="https://web.facebook.com/" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.tiktok.com/" class="text-white me-3"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.linkedin.com/company/" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/" class="text-white"><i class="fab fa-instagram"></i></a>
+        </div>
+
+
+    </div>
+  </div>
+</footer>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS Animate on Scroll CSS -->
+
+<!-- AOS Animate on Scroll JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
